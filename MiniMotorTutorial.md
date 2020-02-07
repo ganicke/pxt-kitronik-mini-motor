@@ -1,9 +1,9 @@
-# Mini Motor Tutorial
+# Mini Motor Test Tutorial
 
-### @activities true
+## Part 1
 
-## Introduction
+This is some text
 
-### Introduction step
+## Part 2
 
-The amazing blast of bright light! Make a program to flash the LEDs.
+Here is some more text
