@@ -7,3 +7,7 @@ Text
 ## Part 2
 
 More Text
+
+## Part 3
+
+Didn't have a third part before
