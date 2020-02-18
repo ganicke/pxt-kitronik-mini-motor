@@ -92,7 +92,7 @@ namespace kitronik_mini_motor {
     /**
      * Sets the requested stepper motor to a chosen angle relative to the start position.
      * @param dir   which direction to go
-     * @param angle how far to turn the motor relative to start
+     * @param angle how far to turn the motor relative to start, eg: 1
      * @param speed how fast to spin the motor, eg: 50
      */
     //% group="Steppers"
