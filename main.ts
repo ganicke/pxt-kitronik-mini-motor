@@ -100,7 +100,7 @@ namespace kitronik_mini_motor {
     //% block="stepper turn %dir|%angle|degrees speed %speed"
     //% weight=95 blockGap=8
     //% angle.min=1 angle.max=360
-    //% speed.min=1 angle.max=100
+    //% speed.min=1 speed.max=100
     export function stepperMotorTurnAngle(dir: MotorDirection, angle: number, speed: number): void {
         let angleToSteps = 0
         let delay = pins.map(speed, 1, 100, 80, 1)
@@ -121,7 +121,7 @@ namespace kitronik_mini_motor {
     //% blockId=kitronik_mini_motor_stepper_motor_turn_steps
     //% block="stepper turn %dir|%steps|steps speed %speed"
     //% weight=100 blockGap=8
-    //% speed.min=1 angle.max=100
+    //% speed.min=1 speed.max=100
     export function stepperMotorTurnSteps(dir: MotorDirection, stepperSteps: number, speed: number): void {
         let delay = pins.map(speed, 1, 100, 80, 1)
         turnStepperMotor(dir, stepperSteps, delay)
