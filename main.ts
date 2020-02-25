@@ -31,7 +31,7 @@ namespace kitronik_mini_motor {
     export let fullStepperSteps = 200 //Default value for the majority of stepper motors; can be altered via a block if neccessary for a particular stepper motor
 
 	/**
-     * Turns on motor specified by Motors in the direction specified
+     * Turns on a selected motor in the direction specified
      * by MotorDirection, at the requested speed 
      *
 	 * @param motor which motor to turn on
@@ -184,7 +184,7 @@ namespace kitronik_mini_motor {
     }
 
     /**
-     * Sets servo connected to Pin 0 to specific angle (for 180 deg servos) or rotation speed (360 deg servos)
+     * Sets servo to a specific angle (for 180 deg servos) or rotation speed (360 deg servos)
      * @param servoPin the output pin to which the servo is connected
      * @param angle angle/speed for servo to turn to/at eg: 90
      */
@@ -203,7 +203,7 @@ namespace kitronik_mini_motor {
     }
 
 	/**
-     * Turns off the motor specified by Motors
+     * Turns off the selected motor
      * @param motor which motor to turn off
      */
     //% group="Motors"
