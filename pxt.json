@@ -1,6 +1,6 @@
 {
     "name": "pxt-kitronik-mini-motor",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Blocks for driving the Kitronik Mini Motor board",
     "dependencies": {
         "core": "*"
