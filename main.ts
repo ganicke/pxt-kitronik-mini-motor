@@ -31,8 +31,7 @@ namespace kitronik_mini_motor {
     export let fullStepperSteps = 200 //Default value for the majority of stepper motors; can be altered via a block if neccessary for a particular stepper motor
 
 	/**
-     * Turns on a selected motor in the direction specified
-     * by MotorDirection, at the requested speed 
+     * Turns on a selected motor in the direction specified by MotorDirection, at the requested speed 
      *
 	 * @param motor which motor to turn on
 	 * @param dir   which direction to go
@@ -77,8 +76,7 @@ namespace kitronik_mini_motor {
     }
 
     /**
-     * Set the number of steps per full rotation for a stepper motor
-     * motorSteps is defaulted to 200
+     * Set the number of steps per full rotation for a stepper motor (motorSteps is defaulted to 200)
      * @param steps number of steps for a full rotation, eg: 200
      */
     //% group="Steppers"
