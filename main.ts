@@ -32,7 +32,6 @@ namespace kitronik_mini_motor {
 
 	/**
      * Turns on a selected motor in the direction specified by MotorDirection, at the requested speed 
-     *
 	 * @param motor which motor to turn on
 	 * @param dir   which direction to go
 	 * @param speed how fast to spin the motor, eg: 50
