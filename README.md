@@ -1,6 +1,6 @@
 # pxt-kitronik-mini-motor
 
-Custom blocks for www.kitronik.co.uk/5679 Mini Motor Driver for BBC micro:bit.\n
+Custom blocks for www.kitronik.co.uk/5679 Mini Motor Driver for BBC micro:bit.
 
 The blocks in this extension are split into four groups:
 
