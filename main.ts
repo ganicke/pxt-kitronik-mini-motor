@@ -191,12 +191,14 @@ namespace kitronik_mini_motor {
     //% angle.min=0 angle.max=180
     //% weight=100 blockGap=8
     export function servoTurn(servoPin: ServoPins, angle: number): void {
+        let currentServo = 0
         if (servoPin == ServoPins.pin0) {
-            pins.servoWritePin(AnalogPin.P0, angle)
+            currentServo = AnalogPin.P0
         }
         else if (servoPin == ServoPins.pin8) {
-            pins.servoWritePin(AnalogPin.P8, angle)
+            currentServo = AnalogPin.P8
         }
+        pins.servoWritePin(currentServo, angle)
     }
 
 	/**
