@@ -195,7 +195,7 @@ namespace kitronik_mini_motor {
             pins.servoWritePin(AnalogPin.P0, angle)
         }
         else if (servoPin == ServoPins.pin8) {
-            pins.servoWritePin(AnalogPin.P0, angle)
+            pins.servoWritePin(AnalogPin.P8, angle)
         }
     }
 
