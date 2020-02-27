@@ -11,6 +11,7 @@ to run either clockwise or counter-clockwise at a speed specified from 0-100%.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
+    let mini_motor: kitronik_mini_motor = null
     kitronik_mini_motor.motorOn(kitronik_mini_motor.Motors.Motor1, kitronik_mini_motor.MotorDirection.clockwise, 100)
 })
 ```
