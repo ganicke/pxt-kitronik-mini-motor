@@ -60,3 +60,6 @@ input.onButtonPressed(Button.A, function () {
 
 Download your code again and press button **A**. Your buggy should spin clockwise for 4 seconds.
  
+```package
+kitronik_mini_motor=github:ganicke/kitronik_mini_motor
+```
