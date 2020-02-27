@@ -2,6 +2,8 @@
 
 Custom blocks for www.kitronik.co.uk/5679 Mini Motor Driver for BBC micro:bit.
 
+HAS THIS UPDATED?
+
 The blocks in this extension are split into four groups:
 
 ## Motors
