@@ -32,7 +32,7 @@ for continuous rotation servos, the 'angle' will set the direction and speed of 
 kitronik_mini_motor.servoTurn(kitronik_mini_motor.ServoPins.pin0, 90)
 ```
 
-## Steppers
+## Stepper Motors
 
 The ``||kitronik_mini_motor.stepperMotorTurnSteps||`` block will set a stepper motor to turn a specified
 number of steps (1 to 200 default), either clockwise or counter-clockwise, at a speed set from 0-100%.
