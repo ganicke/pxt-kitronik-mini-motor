@@ -2,7 +2,7 @@
 
 Custom blocks for www.kitronik.co.uk/5679 Mini Motor Driver for BBC micro:bit.
 
-HAS THIS UPDATED?
+HAS THIS UPDATED!
 
 The blocks in this extension are split into four groups:
 
@@ -14,7 +14,7 @@ to run either clockwise or counter-clockwise at a speed specified from 0-100%.
 ```blocks
 input.onButtonPressed(Button.A, function () {
     let mini_motor: kitronik_mini_motor = null
-    kitronik_mini_motor.motorOn(kitronik_mini_motor.Motors.Motor1, kitronik_mini_motor.MotorDirection.clockwise, 100)
+    mini_motor.motorOn(kitronik_mini_motor.Motors.Motor1, kitronik_mini_motor.MotorDirection.clockwise, 100)
 })
 ```
 
