@@ -6,11 +6,13 @@ The blocks in this extension are split into four groups:
 
 ## Motors
 
-The ``||kitronik_mini_motor.motorOn||`` block turns on a selected motor (1 or 2)
+The ``||motorOn||`` block turns on a selected motor (1 or 2)
 to run either clockwise or counter-clockwise at a speed specified from 0-100%.
 
 ```blocks
-kitronik_mini_motor.motorOn(kitronik_mini_motor.Motors.Motor1, kitronik_mini_motor.MotorDirection.clockwise, 100)
+input.onButtonPressed(Button.A, function () {
+    kitronik_mini_motor.motorOn(kitronik_mini_motor.Motors.Motor1, kitronik_mini_motor.MotorDirection.clockwise, 100)
+})
 ```
 
 The ``||kitronik_mini_motor.motorOff||`` block switches off the selected motor output (1 or 2).
